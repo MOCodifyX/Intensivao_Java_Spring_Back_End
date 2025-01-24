@@ -1,6 +1,6 @@
 # Projeto DSList - Intensivão Java Spring
 
-** Projeto Utilizado Na participação do Intensivão **  
+**Projeto Utilizado Na participação do Intensivão**  
 Durante este intensivão, tivemos a oportunidade de ser apresentados a:  
 
 Aula 1: • Conceitos  
