@@ -1,37 +1,37 @@
 # Projeto DSList - Intensivão Java Spring
 
-** Projeto Utilizado Na participação do Intensivão **
-Durante este intensivão, tivemos a oportunidade de ser apresentados a:
+** Projeto Utilizado Na participação do Intensivão **  
+Durante este intensivão, tivemos a oportunidade de ser apresentados a:  
 
-Aula 1: • Conceitos
-• Sistemas web e recursos
-• Cliente/servidor, HTTP, JSON
-• Padrão Rest para API web
-• Estruturação de projeto Spring Rest • Entidades e ORM
-• Database seeding
-• Padrão camadas
-• Controller, service, repository
-• Padrão DTO
+Aula 1: • Conceitos  
+• Sistemas web e recursos  
+• Cliente/servidor, HTTP, JSON  
+• Padrão Rest para API web  
+• Estruturação de projeto Spring Rest • Entidades e ORM  
+• Database seeding  
+• Padrão camadas  
+• Controller, service, repository  
+• Padrão DTO  
 
-Aula 2: • Relacionamentos N-N
-• Classe de associação, embedded id
-• Consultas SQL no Spring Data JPA
-• Projections
+Aula 2: • Relacionamentos N-N  
+• Classe de associação, embedded id  
+• Consultas SQL no Spring Data JPA  
+• Projections  
 
-Aula 3: • Dicas de currículo e portfólio
-• Perfis de projeto
-• Ambiente local com Docker Compose
-• Processo de homologação local • Processo de deploy com CI/CD
-• Configuração de CORS
+Aula 3: • Dicas de currículo e portfólio  
+• Perfis de projeto  
+• Ambiente local com Docker Compose  
+• Processo de homologação local • Processo de deploy com CI/CD  
+• Configuração de CORS  
 
-Aula 4: • Endpoint Especial
-• Design e implementação de endpoint especial
-• Operação de atualização no Spring
-• Operações com List
-• Verbo HTTP e idempotência
-
-## Calendário das Aulas
-
+Aula 4: • Endpoint Especial  
+• Design e implementação de endpoint especial  
+• Operação de atualização no Spring  
+• Operações com List  
+• Verbo HTTP e idempotência  
+  
+## Calendário das Aulas  
+  
 | Dia / horário  | Conteúdo |
 | ------------- | ------------- |
 | 20/01/2025 Segunda-feira 9h | Aula 1: Projeto estruturado |
@@ -40,32 +40,32 @@ Aula 4: • Endpoint Especial
 | 23/01/2025 Quinta-feira 9h | Aula 4: Endpoint especial |
 | 24/01/2025 Sexta-feira 9h | Aula 5: Resumão e reforço do aprendizado
 
-## 1. Objetivo do Projeto:
-
-Construção de uma API Restful utilizando Spring Boot.
-Aplicação de conceitos de ORM, DTO, e camadas de serviço.
-Integração com banco de dados, realizando operações CRUD.
-
-## 2. Tecnologias Utilizadas:
-
-**Spring Boot:** Framework para construir a API.
-**Spring Data JPA:** Para gerenciar a persistência de dados.
-**Docker:** Para criar e gerenciar containers.
-**JPA (Java Persistence API):** Para mapear as entidades para o banco de dados.
-**Postman:** Para testar os endpoints da API.
-**GitHub:** Para versionamento de código.
-
-## 3. Estrutura do Projeto:
-
-**Controller:** Gerencia as requisições HTTP e usa Service e DTO para manipulação de dados.
-**DTO (Data Transfer Object):** Encapsula dados entre as camadas, sem expor as Entities diretamente.
-**Entities:** Representam as tabelas do banco de dados, mapeadas usando JPA.
-**Projections:** Interfaces que otimizam consultas, recuperando apenas os dados necessários.
-**Repositories:** Realizam operações de acesso ao banco de dados, usando Spring Data JPA.
-**Services:** Contêm a lógica de negócios e interagem com os Repositories para fornecer dados ao Controller.
-
-## Modelo de domínio DSList
-
+## 1. Objetivo do Projeto:  
+  
+Construção de uma API Restful utilizando Spring Boot.  
+Aplicação de conceitos de ORM, DTO, e camadas de serviço.  
+Integração com banco de dados, realizando operações CRUD.  
+  
+## 2. Tecnologias Utilizadas:  
+  
+**Spring Boot:** Framework para construir a API.  
+**Spring Data JPA:** Para gerenciar a persistência de dados.  
+**Docker:** Para criar e gerenciar containers.  
+**JPA (Java Persistence API):** Para mapear as entidades para o banco de dados.  
+**Postman:** Para testar os endpoints da API.  
+**GitHub:** Para versionamento de código.  
+  
+## 3. Estrutura do Projeto:  
+  
+**Controller:** Gerencia as requisições HTTP e usa Service e DTO para manipulação de dados.  
+**DTO (Data Transfer Object):** Encapsula dados entre as camadas, sem expor as Entities diretamente.  
+**Entities:** Representam as tabelas do banco de dados, mapeadas usando JPA.  
+**Projections:** Interfaces que otimizam consultas, recuperando apenas os dados necessários.  
+**Repositories:** Realizam operações de acesso ao banco de dados, usando Spring Data JPA.  
+**Services:** Contêm a lógica de negócios e interagem com os Repositories para fornecer dados ao Controller.  
+  
+## Modelo de domínio DSList  
+  
 ![Modelo de domínio DSList](https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/dslist-model.png)
 
 ## Trechos de código
