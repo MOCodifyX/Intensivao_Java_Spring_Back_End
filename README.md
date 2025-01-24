@@ -1,7 +1,7 @@
 # Projeto DSList - Intensivão Java Spring
 
 ** Projeto Utilizado Na participação do Intensivão **
-Neste Intensivão nós foi apresentado:
+Durante este intensivão, tivemos a oportunidade de ser apresentados a:
 
 Aula 1: • Conceitos
 • Sistemas web e recursos
@@ -48,21 +48,21 @@ Integração com banco de dados, realizando operações CRUD.
 
 ## 2. Tecnologias Utilizadas:
 
-Spring Boot: Framework para construir a API.
-Spring Data JPA: Para gerenciar a persistência de dados.
-Docker: Para criar e gerenciar containers.
-JPA (Java Persistence API): Para mapear as entidades para o banco de dados.
-Postman: Para testar os endpoints da API.
-GitHub: Para versionamento de código.
+**Spring Boot:** Framework para construir a API.
+**Spring Data JPA:** Para gerenciar a persistência de dados.
+**Docker:** Para criar e gerenciar containers.
+**JPA (Java Persistence API):** Para mapear as entidades para o banco de dados.
+**Postman:** Para testar os endpoints da API.
+**GitHub:** Para versionamento de código.
 
 ## 3. Estrutura do Projeto:
 
-Controller: Gerencia as requisições HTTP e usa Service e DTO para manipulação de dados.
-DTO (Data Transfer Object): Encapsula dados entre as camadas, sem expor as Entities diretamente.
-Entities: Representam as tabelas do banco de dados, mapeadas usando JPA.
-Projections: Interfaces que otimizam consultas, recuperando apenas os dados necessários.
-Repositories: Realizam operações de acesso ao banco de dados, usando Spring Data JPA.
-Services: Contêm a lógica de negócios e interagem com os Repositories para fornecer dados ao Controller.
+**Controller:** Gerencia as requisições HTTP e usa Service e DTO para manipulação de dados.
+**DTO (Data Transfer Object):** Encapsula dados entre as camadas, sem expor as Entities diretamente.
+**Entities:** Representam as tabelas do banco de dados, mapeadas usando JPA.
+**Projections:** Interfaces que otimizam consultas, recuperando apenas os dados necessários.
+**Repositories:** Realizam operações de acesso ao banco de dados, usando Spring Data JPA.
+**Services:** Contêm a lógica de negócios e interagem com os Repositories para fornecer dados ao Controller.
 
 ## Modelo de domínio DSList
 
